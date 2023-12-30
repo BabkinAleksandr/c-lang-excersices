@@ -10,4 +10,8 @@ Change your current dir to the dir of particular excercise. Run:
 make
 ```
 
-to build binary and then run compiled binary.
+to build binary and then run compiled binary by executing:
+
+```
+make run
+```
