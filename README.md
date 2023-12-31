@@ -1,6 +1,6 @@
 # C Language Exercices
 
-This repo is a set of solutions of excercies from the "The C Programming Language (ANSI C Edition)" book by Brian W. Kernighan and Dennis M. Ritchie.
+This repo is a set of solutions of exercises from the "The C Programming Language (ANSI C Edition)" book by Brian W. Kernighan and Dennis M. Ritchie.
 
 ## How to build and run
 
