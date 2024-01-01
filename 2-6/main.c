@@ -7,6 +7,7 @@ int main(void) {
     assert(setbits(1024, 0, 1, 1) == 1025);
     assert(setbits(1024, 10, 1, 0) == 0);
     assert(setbits(85736, 10, 5, 333) == 84840);
+    return 0;
 }
 
 /** returns x, but with the n bits that begin at position p

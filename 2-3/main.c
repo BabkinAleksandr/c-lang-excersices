@@ -13,9 +13,11 @@ int main(void) {
     char s[100];
     int result;
 
+    printf("Enter hexadecimal number (could start from \"0x\" or not):\n");
     fgets(s, sizeof(s), stdin);
     result = htoa(s);
-    printf("%d", result);
+    printf("In decimal it will be: %d\n", result);
+    return 0;
 }
 
 int htoa(char s[]) {

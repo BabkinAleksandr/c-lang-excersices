@@ -7,6 +7,7 @@ int main(void) {
     assert(invert(1024, 2, 3) == 1031);
     assert(invert(85736, 10, 5) == 84264);
     assert(invert(0, 5, 6) == 63);
+    return 0;
 }
 
 /** Returns x, but bits in fragment from position p and length of n are inverted

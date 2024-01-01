@@ -9,6 +9,7 @@ int main(void) {
     assert(rightrot(1024, 3) == 128);
     assert(rightrot(85736, 5) == 35447);
     assert(rightrot(0, 5) == 0);
+    return 0;
 }
 
 /** Returns x, but all n rightmost bits are moved to the leftmost position
